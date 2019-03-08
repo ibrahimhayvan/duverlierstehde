@@ -1,0 +1,298 @@
+body{ 
+background-color:#295F8D;
+font-family: 'Inconsolata', monospace, serif;
+color:white;
+font-weight:bolder;
+ }
+
+ nav ul li {
+ 	display:inline-block;
+ }
+ nav li {
+ 	
+ 	margin-right:35px;
+ 	padding-top:10px;
+ 	position:relative;
+ }
+ header::after{
+ 	content:"";
+ 	display:table;
+ 	clear:both;
+ }
+header h1{
+ 	text-transform:uppercase;
+	color:#0E8FD9;
+ 	text-decoration:underline;
+ 	padding-top:5px;
+ 	text-align:center;
+}
+
+ header {
+ 	width:100%;
+ 	background-color:#061555;	
+ 	box-shadow: 2px 3px 4px blue;
+ }
+
+ nav {
+ 	text-align:center;
+ }
+ nav ul {
+ 	list-style:none;
+ }
+ nav a{
+ 	color:white;
+ 	text-transform:uppercase;
+ 	text-decoration:none;
+ 	font-size:16px;
+ }
+ #container2 a{
+ 	color:red;
+ 	text-decoration:none;
+ }
+ #container2 a:hover{
+ 	color:lightblue;
+ 	text-decoration:underline;
+ }
+ nav a:hover{
+ 	color:lightblue;
+ 	text-decoration:underline;
+ }
+ nav a::before{
+ 	content:"";
+ 	display:block;
+ 	height:4px;
+ 	background-color:lightblue;
+ 	position:absolute;
+ 	top:5;
+ 	width:0%;
+ 	transition:all ease-in-out 250ms;
+ }
+ nav a:hover::before{
+ 	width:100%;
+ 	opacity:0.4;
+ }
+
+ footer{
+ 	background:#061555;
+ 	text-align:center;
+ 	color:lightblue;
+ 	width:100%;
+ 	box-shadow: 2px 3px 4px blue;
+ }
+ .spe2 a{
+ 	color:white;
+ }
+ .spe2 a:hover{
+ 	color:red;
+ }
+
+ #container2{
+ 	display:table-cell;
+ 	border:2px solid rgba(112,173,99,0.1);
+ 	background-clip:padding-box;
+ 	color:#0E8FD9; 
+ 	padding:10px;
+ 	margin-top:180px;
+ 	background-color:#061555;
+ 	box-shadow: 2px 3px 4px blue;
+ }
+#end{
+	width:100%;
+	height:5%;
+}
+ h3{
+  margin-top:99px;
+  border-top:3px solid darkblue;
+  text-transform:uppercase;
+  color:darkblue;
+  font-size:xx-large;
+text-shadow: 2px 3px 4px lightblue;  
+}
+
+
+.spe p{
+	color:lightblue;
+}
+.spe h1{
+		color:lightblue;
+		text-decoration:underline;
+	text-transform:uppercase;
+		font-weight:500;
+}	
+#container2 h1{
+	color:lightblue;
+		text-decoration:underline;
+	text-transform:uppercase;
+		font-weight:500;
+}
+.spe input[type = "text"],.spe input[type = "email"]{
+	border:0;
+	background:none;
+	display:block;
+	margin:10px auto;
+	text-align:center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width:200px;
+	outline:none;
+	color:darkred;
+	border-radius:24px;
+	transition:0.25s;
+}
+.sub{
+	border:0;
+	background:none;
+	display:block;
+	margin:20px auto;
+	text-align:center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width:200px;
+	outline:none;
+	color:lightblue;
+	border-radius:24px;
+	cursor:pointer;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	transition:letter-spacing 1.5s linear;
+}
+.sub:hover{
+	background-color:blue;
+	letter-spacing:5px;
+}
+.spe  input[type = "text"]:hover ,.spe input[type = "email"]:hover{
+	background-color:#E1F1FF;
+}
+.spe input[type = "text"]:focus  ,.spe input[type = "email"]:focus {
+	width:280px;
+	border-color:black;
+	color:black;
+}
+.spe input[type="submit"]{
+	border:0;
+	background:none;
+	display:block;
+	margin:10px auto;
+	text-align:center;
+	border: 2px solid darkblue;
+	padding: 14px 40px;
+	width:200px;
+	outline:none;
+	color:lightblue;
+	border-radius:24px;
+	transition:0.25s;
+	cursor:pointer;
+}
+.spe input[type="submit"]:hover{
+	background-color:#E1F1FF;
+	color:black;
+}
+
+#Mach-mit{
+	text-align:center;
+	padding-top:60px;
+	visibility:hidden;
+}
+#Credits{
+	text-align:center;
+	padding-top:60px;
+	visibility:hidden;
+}
+#Hilf-uns{
+	text-align:center;
+	margin-bottom:120px;
+	visibility:hidden;
+}
+#Letzter-Gewinner{
+	text-align:center;
+	margin-bottom:120px;
+	visibility:hidden;
+}
+#Über-das-Spiel{
+	text-align:center;
+	margin-bottom:40px;
+	visibility:hidden;
+}
+#Anzahl-der-Teilnehmer{
+		text-align:center;
+	margin-bottom:120px;
+	visibility:hidden;
+}
+.tableess{
+	margin-top:70px;
+	width:100%;
+	height:200px;
+	background-color:#061555;
+	border:2px solid black;
+	color:#0E8FD9;
+	box-shadow: 2px 3px 4px blue;
+}
+#csa{
+	letter-spacing:5px;
+	font-weight:400px;
+	text-decoration:underline;
+	text-shadow:2px 1px 2px darkblue;
+	text-align:center;
+	font-size:xx-large;
+	text-transform:uppercase;
+}
+article{
+	background-color:#9B9DCF;
+	border:2px outset darkblue;
+	box-shadow: 2px 3px 4px blue;
+}
+.spe{
+	width:100%
+	height:100px;
+	background-color:#061555;
+	border:2px solid black;
+	color:#0E8FD9;
+	padding:5px;
+	margin:30px auto;
+	display:inline-table;
+	box-shadow: 2px 3px 4px blue;
+}
+.spe2{
+	display:table-cell;
+	text-align:center;
+
+} 
+
+.spe6{
+	width:100%
+	height:100px;
+	background-color:#061555;
+	border:2px solid black;
+	color:#0E8FD9;
+	padding:5px;
+	margin:30px auto;
+	display:inline-table;
+	box-shadow: 2px 3px 4px blue;
+	border-radius:20px;
+}
+#sternchen{
+	vertical-align:super;
+}
+#ema{
+	font-size:smaller;
+	color:lightblue;
+}
+h1{
+	letter-spacing:5px;
+	font-weight:500;
+	text-decoration:underline;
+}
+#winner{
+	font-size:xx-large;
+	letter-spacing:3px;
+	padding:15px;
+	
+}
+#hiea{
+	font-weight:bolder;
+}
+.tableess a {
+	 	
+	 	color:white;
+ 	
+}
